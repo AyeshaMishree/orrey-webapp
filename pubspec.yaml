@@ -1,0 +1,71 @@
+name: orrey_web_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_gl: ^0.0.21
+  http: ^0.13.6
+  three_dart: ^0.0.16
+  url_launcher: ^6.3.0
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  google_sign_in: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/background.png
+      - assets/images/logo.png
+      - assets/images/bg.png
+      - assets/images/bg2.png
+      - assets/images/bg3.jpg
+      - assets/images/astronaut.png
+      - assets/images/astronaut1.jpg
+      - assets/images/usama_khan.png
+      - assets/images/ayesha_mishree.png
+      - assets/images/jawad_usman.png
+      - assets/images/tm3.PNG
+      - assets/images/tm4.PNG
+      - assets/sun.gif
+      - assets/Planets/earth.png
+      - assets/Planets/jupiter.png
+      - assets/Planets/mars.png
+      - assets/Planets/venus.png
+      - assets/Planets/uranus.png
+      - assets/Planets/saturn.png
+      - assets/Planets/neptune.png
+      - assets/Planets/mercury.png
+      - assets/orbits/orbit_1.png
+      - assets/orbits/orbit_2.png
+      - assets/orbits/orbit_3.png
+      - assets/orbits/orbit_4.png
+      - assets/orbits/orbit_5.png
+      - assets/orbits/orbit_6.png
+      - assets/orbits/orbit_7.png
+      - assets/orbits/orbit_8.png
+      - assets/asteriods/Asteriod.png
+      - assets/asteriods/asteriods_belt.png
+
+  fonts:
+    - family: Anton
+      fonts:
+        - asset: assets/fonts/Anton/Anton-Regular.ttf
+
+    - family: Open_Sans
+      fonts:
+        - asset: assets/fonts/Open_Sans/static/OpenSans-Regular.ttf
+        - asset: assets/fonts/Open_Sans/static/OpenSans-Bold.ttf
+        - asset: assets/fonts/Open_Sans/static/OpenSans-Medium.ttf

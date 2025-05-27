@@ -27,7 +27,4 @@ The study of celestial bodies and their movements has fascinated humanity for ce
 - **JavaScript** – Backend and API request handling  
 - **Firestore** – Storing real-time planetary and NEO data  
 
-## 7. Screenshots  
-
-
-
+![image](https://github.com/user-attachments/assets/7863fcba-c1b8-4c83-a178-2d29cde5ac92)
